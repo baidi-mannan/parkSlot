@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+  
+}
+.body{ background-color: white;}
+.receipt-title{
+
+    width: 393px;
+    height: 58px;
+    background-color: #5E188C;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    letter-spacing: 1px;
+    font-size: bold;
+    
+    color: #fff;
+}
+  
+.receipt-pic{ 
+    width: 393px;
+    height : 230px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+
+  
+}
+
+.receipt-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+  }
+ .receipt-car-title{
+
+    letter-spacing: 0.87px;
+    display: flex;
+    justify-content: space-between;
+    font-size:14px;
+
+ }
+ .receipt-car-title h4{
+     font-size: 18px;
+ }
+ .receipt-car{ margin:22px 16px 0 16px;
+    height: 85px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom:2px solid #000;
+    
+}
+.receipt-car-name{
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.6;
+    font-family: 'Roboto';
+    padding-bottom: 5px;
+}
+
+.receipt-right { 
+    
+    display: flex;
+    justify-content: flex-end;
+
+    margin: 15px 15px 0 0;
+    cursor: pointer;
+}
+.receipt-right  a{
+    text-decoration: none;
+    color:#4EA8ED;
+    font-size: 14px;}
+
+

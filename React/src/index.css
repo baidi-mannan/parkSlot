@@ -1,0 +1,19 @@
+*{
+
+  padding:0 px;
+  margin:0;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  display:flex;
+  justify-content:space-around;
+  
+}
+
+.body
+{
+  width: 393px;
+  height: 851px;
+  background-color: #F2F2F2;
+}

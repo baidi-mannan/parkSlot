@@ -1,0 +1,5 @@
+GET http://localhost:5000/api
+
+###
+
+GET http://localhost:5000/api/1234567890

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+*{
+    font-family:  "Roboto",sans-serif;
+    color:#2A312F;
+    
+}
+.car-details-title{
+
+    width: 393px;
+    height: 58px;
+    background-color: #5E188C;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    letter-spacing: 1px;
+    font-size: bold;
+    
+    color: #fff;
+}
+.car-details-color-box
+{
+    width: 393px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 12px;
+}
+.car-details-form{
+
+    margin :24px 16px 0 16px;
+    
+    height: 770px;
+
+}
+.car-details-form input
+{ width: 361px; height: 44px;
+    margin: 2px 0 5px 0;
+    font-size: 14px; 
+    font-family: "Roboto",sans-serif;
+
+}
+.car-details-color-box
+{ 
+    margin: 10px 0;
+    margin-left: -16px;
+}
+.car-details-button{
+    background-color:#7E8184;
+    border-radius: 25px;
+    width: 361px;
+    height: 49px;
+    margin-top: 15px;
+    position : fixed;
+    bottom: 0;
+    color: #fff;
+}
